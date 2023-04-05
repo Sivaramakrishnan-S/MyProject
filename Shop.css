@@ -1,0 +1,46 @@
+.Shop {
+    background-image: url('https://images.pexels.com/photos/326259/pexels-photo-326259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card {
+    margin: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-top {
+    height: 12rem;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .card-link {
+    color: #007bff;
+  }
+  
+  .btn-shop {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-shop:hover {
+    background-color: #0069d9;
+  }
+  
